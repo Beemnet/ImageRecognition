@@ -12,7 +12,7 @@ public class TestB {
 
     public static void main(String[] args) {
         CSVReader csvReader = new CSVReader();
-        String csvFile = "./data/mnist_train.csv"; // Replace with the actual path to your CSV file
+        String csvFile = "./data/mnist_train.csv"; 
 
         List<String[]> rows = csvReader.readCSVFile(csvFile);
 
@@ -30,10 +30,9 @@ public class TestB {
 
         // Print the first column of the matrix
         for (int i = 0; i < 28; i++) {
-            // System.out.println(matrix[i][0]);
+            System.out.println(matrix[i][0]);
         }
 
-        // Logging example
         logger.log(Level.INFO, "CSV file processed successfully.");
     }
 }

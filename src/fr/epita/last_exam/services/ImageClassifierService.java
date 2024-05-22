@@ -21,7 +21,7 @@ public class ImageClassifierService {
         try (CSVReader reader = new CSVReader(new FileReader(filePath))) {
             String[] nextLine;
             while ((nextLine = reader.readNext()) != null) {
-                // Assuming each line represents an image, create an Image instance
+                // Create an Image instance
                 int label = Integer.parseInt(nextLine[0]);
                 double[][] dataMatrix = new double[nextLine.length - 1][];
                 for (int i = 1; i < nextLine.length; i++) {

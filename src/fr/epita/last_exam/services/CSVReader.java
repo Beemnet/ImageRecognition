@@ -48,7 +48,6 @@ public class CSVReader {
     public double[] extractValues(String csvFile) {
         List<String[]> rows = readCSVFile(csvFile);
 
-        // Assuming the values are in the first row of the CSV file
         String[] firstRow = rows.get(0);
         double[] values = new double[firstRow.length];
 
@@ -79,7 +78,7 @@ public class CSVReader {
                     System.out.print(".. ");
                 }
             }
-            System.out.println(); // Move to the next line after each row
+            System.out.println(); 
         }
 
     }
