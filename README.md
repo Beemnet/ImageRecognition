@@ -20,20 +20,35 @@ This project involves working with the MNIST dataset, which consists of handwrit
 ```plaintext
 .
 ├── src
-│   ├── main
-│   │   ├── java
-│   │   │   ├── Image.java
-│   │   │   ├── ImageCsvDAO.java
-│   ├── test
-│   │   ├── java
-│   │   │   ├── TestA.java
-│   │   │   ├── TestB.java
-│   │   │   ├── TestC.java
-│   │   │   ├── TestD.java
-│   │   │   ├── TestE.java
-│   │   │   ├── TestF.java
-├── mnist_train.csv
-├── mnist_test.csv
+│   ├── fr
+│   │   ├── epita
+│   │   │    ├── last_exam
+│   │   │    │    ├── daos
+│   │   │    │    │    ├── ImageCsvDAO.java
+│   │   │    │    ├── datamodels
+│   │   │    │    │    ├── Image.java
+│   │   │    │    ├── services
+│   |   │    │    │    ├── CentroidService.java
+│   |   │    │    │    ├── CSVReader.java
+│   |   │    │    │    ├── DigitDistributionService.java
+│   |   │    │    │    ├── ImageClassifierService.java
+|
+├── test
+│   ├── fr
+│   │   ├── epita
+│   │   │    ├── last_exam
+│   │   |    │    ├── test
+│   │   │    │    ├── TestA.java
+│   │   │    │    ├── TestB.java
+│   │   │    │    ├── TestC.java
+│   │   │    │    ├── TestD.java
+│   │   │    │    ├── TestE.java
+│   │   │    │    ├── TestF.java
+|
+├── data
+│   ├── mnist_train.csv
+│   ├── mnist_test.csv
+|
 └── README.md
 ```
 
@@ -41,7 +56,7 @@ This project involves working with the MNIST dataset, which consists of handwrit
 
 - Java Development Kit (JDK)
 - Integrated Development Environment (IDE) such as IntelliJ IDEA or Eclipse
-- [mnist_train.csv](mnist_train.csv) and [mnist_test.csv](mnist_test.csv) files are provided under the `/data` folder
+- [mnist_train.csv](mnist_train.csv) and [mnist_test.csv](mnist_test.csv) files can be found on online open sources, please place them under the folder `\data` as it as been shown above.. 
 
 ## Usage
 
